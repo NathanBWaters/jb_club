@@ -1,0 +1,32 @@
+.postList { /* stylelint-disable */
+	overflow-y:scroll; 
+    position:relative;
+    height: 600px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.post {
+	border: lightgray 1px solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px lightgrey;
+}
+
+.post_date {
+	color: lightgray;
+	font-size: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.post_title {
+	margin-bottom: 0px;
+}
+
+.post_author {
+	text-align: right;
+	margin-bottom: 0px
+}

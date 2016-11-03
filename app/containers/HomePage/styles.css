@@ -1,0 +1,26 @@
+/**
+ * styles.css
+ *
+ * App container styles
+ */
+
+.header{
+	text-align: center;
+}
+
+.container {
+  display: block;
+}
+
+img {
+	width: 100%;
+}
+
+.main_grid {
+	height: 600px;
+	overflow: hidden;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}

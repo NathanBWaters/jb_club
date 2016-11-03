@@ -1,0 +1,33 @@
+.clubCard { /* stylelint-disable */
+	border: 1px gray;
+	border-style: solid;
+
+	height: 280px;
+	margin: 10px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    width: 150px;
+    height: 100%;
+    padding: 0px;
+}
+
+.headerContainer {
+	text-align: center;
+	border-bottom: 1px lightgray solid;
+	margin: 3px;
+}
+
+.buttonContainer {
+	margin: 5px;
+	text-align: center;
+}
+
+.main {
+	height: 170px;
+}

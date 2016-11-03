@@ -1,0 +1,17 @@
+.gallery { /* stylelint-disable */
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 10px;
+
+	img {
+		height: 300px;
+	}
+}
+
+.carousel {
+	height: 100%;
+}
+
+.carousel_image {
+	width: 100%;
+}
