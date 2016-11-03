@@ -9,11 +9,11 @@ import React from 'react';
 import styles from './styles.css';
 import {Grid, Row, Col} from 'react-bootstrap';
 import ClubCard from 'components/ClubCard'
-import NEABC from './neabc.png'
-import WCR from './women_can_ride.jpg'
-import Imacyclist from './imacyclist.jpg'
-import NEA_Woodies from './nea_woodies_logo.jpg'
-import Pedal_Pushers from './pedal_pushers.png'
+const NEABC = 'https://s3-us-west-2.amazonaws.com/jonesboro/neabc.png'
+const WCR = 'https://s3-us-west-2.amazonaws.com/jonesboro/women_can_ride.jpg'
+const Imacyclist = 'https://s3-us-west-2.amazonaws.com/jonesboro/imacyclist.jpg'
+const NEA_Woodies = 'https://s3-us-west-2.amazonaws.com/jonesboro/nea_woodies_logo.jpg'
+const Pedal_Pushers = 'https://s3-us-west-2.amazonaws.com/jonesboro/pedal_pushers.png'
 
 class Clubs extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {

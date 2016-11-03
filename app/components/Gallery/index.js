@@ -8,9 +8,9 @@ import React from 'react';
 
 import styles from './styles.css';
 import { Carousel } from 'react-bootstrap';
-import Cover1 from './cover_2.jpg';
-import Cover2 from './cover_3.jpg';
-import Cover3 from './cover_1.jpg';
+const Cover1 = 'https://s3-us-west-2.amazonaws.com/jonesboro/cover_2.jpg';
+const Cover2 = 'https://s3-us-west-2.amazonaws.com/jonesboro/cover_3.jpg';
+const Cover3 = 'https://s3-us-west-2.amazonaws.com/jonesboro/cover_1.jpg';
 
 class Gallery extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {

@@ -6,7 +6,7 @@ import React, { PropTypes } from 'react';
 // BigCalendar.setLocalizer(
 //   BigCalendar.globalizeLocalizer(globalize)
 // );
-import CalendarPic from './calendar.png'
+const CalendarPic = 'https://s3-us-west-2.amazonaws.com/jonesboro/calendar.png'
 import styles from './styles.css';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
